@@ -2,6 +2,8 @@
 
 ## Overview
 
+Part of cold emailing is to find people from a certain company or certain experience and doing this repetedly is very annoying, i built this tool to just automate the whole process. Feel free to check it out!
+
 This project utilizes AI agents powered by the `agno` library and Google Gemini, combined with Selenium browser automation, to search for LinkedIn profiles based on user input, scrape profile information and save the results to a CSV file.
 
 The system uses a chatbot interface to interact with the user, understand their search requirements (including LinkedIn Boolean search syntax), delegate the search task to a specialized agent, and then delegate the writing task to another agent.
