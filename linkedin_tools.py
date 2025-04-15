@@ -124,8 +124,8 @@ def linkedin_search_tool(search_query: str, max_results: int = 20) -> List[Dict[
     
     
     try:
-        username = os.getenv("LINKEDIN_USERNAME", "khush.grandhi@gmail.com")
-        password = os.getenv("LINKEDIN_PASSWORD", "Ksm2612pl,")
+        username = os.getenv("LINKEDIN_USERNAME", "<username>")
+        password = os.getenv("LINKEDIN_PASSWORD", "<password>")
         
         login_linkedin(username, password, driver)
         profiles = search_linkedin_profiles(driver, search_query, max_results)
